@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    image: my-ecom-site
+    ports:
+      - "8080:80"
+    container_name: my-ecom-container
